@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-600: hsl(231, 69%, 60%);
+  --color-primary-400: hsl(0, 94%, 66%);
+
+  --color-neutral-50: hsl(0, 0%, 97%);
+  --color-neutral-950: hsl(229, 31%, 21%);
+
+  --font-paragraph: 18px;
+
+  --font-rubik: Rubik;
+  --font-400: 400;
+  --font-500: 500;
+}
