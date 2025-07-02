@@ -26,6 +26,7 @@
     --default-mono-font-family: var(--font-mono);
     --color-primary-600: hsl(231, 69%, 60%);
     --color-primary-400: hsl(0, 94%, 66%);
+    --font-rubik: Rubik;
     --font-500: 500;
   }
 }
@@ -348,6 +349,9 @@
   }
   .font-500 {
     font-family: var(--font-500);
+  }
+  .font-rubik {
+    font-family: var(--font-rubik);
   }
   .text-2xl {
     font-size: var(--text-2xl);
