@@ -27,7 +27,7 @@
 }
 @layer components {
   .tab-btn {
-    @apply relative border-b border-neutral-950/50 transition-all;
+    @apply relative border-b border-neutral-950/50 transition-all sm:hover:text-primary-400 cursor-pointer;
   }
   .tab-btn.active:after {
     @apply content-[''] absolute bg-primary-400 w-30 h-1 rounded bottom-0 left-1/2 -translate-x-1/2;
@@ -48,7 +48,7 @@
     @apply grid gap-2 border-b border-neutral-950/50 pb-2;
   }
   .faq-btn {
-    @apply flex justify-between items-center py-2;
+    @apply flex justify-between items-center py-2 sm:hover:text-primary-400;
   }
   .faq-icon {
     @apply transition-transform duration-300 ease-in-out text-primary-600;

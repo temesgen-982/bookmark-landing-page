@@ -64,18 +64,26 @@
               <a class="text-transparent" href="">.</a>
             </li>
             <li class="border-b border-neutral-50/50 sm:border-0">
-              <a class="block w-full py-2" href="">Features</a>
+              <a class="block w-full py-2 hover:text-primary-400" href=""
+                >Features</a
+              >
             </li>
             <li class="border-b border-neutral-50/50 sm:border-0">
-              <a class="block w-full py-2" href="">Pricing</a>
+              <a class="block w-full py-2 hover:text-primary-400" href=""
+                >Pricing</a
+              >
             </li>
             <li class="border-b border-neutral-50/50 sm:border-0">
-              <a class="block w-full py-2" href="">Contact</a>
+              <a class="block w-full py-2 hover:text-primary-400" href=""
+                >Contact</a
+              >
             </li>
             <li
-              class="border-2 rounded-sm mt-2 sm:border-0 sm:mt-0 sm:bg-primary-400"
+              class="border-2 rounded-sm mt-2 sm:border-primary-400 sm:hover:bg-transparent sm:mt-0 sm:bg-primary-400"
             >
-              <a class="block w-full py-2 sm:text-neutral-50 sm:px-3" href=""
+              <a
+                class="block w-full py-2 sm:text-neutral-50 sm:hover:text-primary-400 sm:px-3"
+                href=""
                 >Login</a
               >
             </li>
@@ -107,12 +115,20 @@
             free.
           </p>
           <div class="flex justify-center gap-2">
-            <a class="btn-primary" href="#chrome">Get it on Chrome</a>
-            <a class="px-4 py-2 shadow" href="#firefox">Get it on Firefox</a>
+            <a
+              class="btn-primary sm:hover:bg-transparent sm:hover:text-primary-600 sm:border sm:border-primary-600"
+              href="#chrome"
+              >Get it on Chrome</a
+            >
+            <a
+              class="px-4 py-2 shadow border border-neutral-50 sm:hover:border-neutral-950 sm:hover:text-neutral-950 rounded"
+              href="#firefox"
+              >Get it on Firefox</a
+            >
           </div>
         </div>
       </div>
-      <div class="grid gap-3 sm:max-w-sm sm:mx-auto px-5 pt-8 pb-5 text-center">
+      <div class="grid gap-3 sm:max-w-xl sm:mx-auto px-5 pt-8 pb-5 text-center">
         <h2 class="text-2xl">Features</h2>
         <p>
           Our aim is to make it quick and easy for you to access your favourite
@@ -196,7 +212,7 @@
         </div>
       </div>
       <div class="py-8">
-        <div class="grid gap-2 px-5 text-center sm:max-w-sm sm:mx-auto sm:mt-7">
+        <div class="grid gap-2 px-5 text-center sm:max-w-xl sm:mx-auto sm:mt-7">
           <h2 class="text-2xl">Download the extension</h2>
           <p>
             We’ve got more browsers in the pipeline. Please do let us know if
@@ -218,7 +234,11 @@
             </div>
             <img src="assets/images/bg-dots.svg" alt="" />
             <div>
-              <a class="btn-primary" href="">Add & Install Extension</a>
+              <a
+                class="btn-primary sm:hover:bg-transparent sm:hover:text-primary-600 sm:border sm:border-primary-600"
+                href=""
+                >Add & Install Extension</a
+              >
             </div>
           </div>
           <div id="#firefox" class="grid gap-5 shadow rounded py-5 md:mt-25">
@@ -233,7 +253,11 @@
             </div>
             <img src="assets/images/bg-dots.svg" alt="" />
             <div>
-              <a class="btn-primary" href="">Add & Install Extension</a>
+              <a
+                class="btn-primary sm:hover:bg-transparent sm:hover:text-primary-600 sm:border sm:border-primary-600"
+                href=""
+                >Add & Install Extension</a
+              >
             </div>
           </div>
           <div id="#opera" class="grid gap-5 shadow rounded py-5 md:mt-50">
@@ -248,12 +272,16 @@
             </div>
             <img src="assets/images/bg-dots.svg" alt="" />
             <div>
-              <a class="btn-primary" href="">Add & Install Extension</a>
+              <a
+                class="btn-primary sm:hover:bg-transparent sm:hover:text-primary-600 sm:border sm:border-primary-600"
+                href=""
+                >Add & Install Extension</a
+              >
             </div>
           </div>
         </div>
       </div>
-      <div class="grid gap-5 md:max-w-xs md:mx-auto px-5 py-8">
+      <div class="grid gap-5 md:max-w-xl md:mx-auto px-5 py-8">
         <div class="grid gap-4 text-center">
           <h2 class="text-2xl">Frequently Asked Questions</h2>
           <p>
@@ -371,16 +399,35 @@
         <a class="btn-primary justify-self-center" href="">More Info</a>
       </div>
       <div class="bg-primary-600 text-neutral-50 text-center py-8">
-        <div class="px-5 md:max-w-xs md:mx-auto">
+        <div class="px-5 md:max-w-xl md:mx-auto">
           <p class="uppercase text-sm">35,000+ already joined</p>
           <h3 class="text-xl">Stay up-to-date with what we’re doing</h3>
           <form class="flex flex-col sm:flex-row gap-2 py-3" action="">
-            <input
-              class="bg-neutral-50 py-2 rounded sm:grow"
-              type="text"
-              placeholder="Enter your email address"
-            />
-            <button class="btn-primary bg-primary-400">Contact Us</button>
+            <div class="p-1 rounded sm:grow input-wrapper">
+              <div class="flex items-center relative">
+                <input
+                  class="bg-neutral-50 p-2 rounded outline-0 grow placeholder:text-neutral-600 text-neutral-950"
+                  type="text"
+                  placeholder="Enter your email address"
+                />
+                <img
+                  class="hidden email-error-message absolute right-1 top-2.5"
+                  src="assets/images/icon-error.svg"
+                  alt="Error"
+                />
+              </div>
+              <p class="hidden email-error-message text-left">
+                Whoops, make sure it's an email
+              </p>
+            </div>
+            <div class="flex p-1 grow sm:grow-0">
+              <button
+                type="submit"
+                class="grow btn-primary bg-primary-400 border border-primary-400 sm:hover:bg-neutral-50 sm:hover:text-primary-400 sm:hover:border-primary-400"
+              >
+                Contact Us
+              </button>
+            </div>
           </form>
         </div>
       </div>
@@ -413,9 +460,21 @@
             </svg>
           </div>
           <ul class="flex flex-col sm:flex-row gap-2 uppercase">
-            <li><a class="block w-full p-1" href="">Features</a></li>
-            <li><a class="block w-full p-1" href="">Pricing</a></li>
-            <li><a class="block w-full p-1" href="">Contact</a></li>
+            <li>
+              <a class="block w-full p-1 sm:hover:text-primary-400" href=""
+                >Features</a
+              >
+            </li>
+            <li>
+              <a class="block w-full p-1 sm:hover:text-primary-400" href=""
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a class="block w-full p-1 sm:hover:text-primary-400" href=""
+                >Contact</a
+              >
+            </li>
           </ul>
           <div class="flex gap-8 justify-center sm:hidden">
             <a href=""
@@ -440,5 +499,6 @@
     <script src="assets/javascript/menu.js"></script>
     <script src="assets/javascript/tab-navigation.js"></script>
     <script src="assets/javascript/faq-accordion.js"></script>
+    <script src="assets/javascript/email-validator.js"></script>
   </body>
 </html>
