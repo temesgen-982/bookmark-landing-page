@@ -13,3 +13,15 @@
   --font-400: 400;
   --font-500: 500;
 }
+
+@layer utilities {
+  .main-path {
+    fill: var(--color-neutral-50);
+  }
+  .circle {
+    fill: var(--color-neutral-50);
+  }
+  .inner-icon {
+    fill: var(--color-neutral-950);
+  }
+}
