@@ -99,7 +99,7 @@
             alt="Bookmark illustration"
           />
         </div>
-        <div class="grid gap-3 p-5 text-center">
+        <div class="grid gap-3 sm:content-center p-5 text-center">
           <h1 class="text-2xl font-500">A Simple Bookmark Manager</h1>
           <p>
             A clean and simple interface to organize your favourite websites.
@@ -112,7 +112,7 @@
           </div>
         </div>
       </div>
-      <div class="grid gap-3 px-5 pt-8 pb-5 text-center">
+      <div class="grid gap-3 sm:max-w-sm sm:mx-auto px-5 pt-8 pb-5 text-center">
         <h2 class="text-2xl">Features</h2>
         <p>
           Our aim is to make it quick and easy for you to access your favourite
@@ -135,15 +135,17 @@
           </li>
         </ul>
         <div id="tabs">
-          <div class="sm:flex">
-            <div class="img-left-after">
+          <div class="active-tab">
+            <div class="img-left-after w-full sm:w-1/2">
               <img
                 class="px-5"
                 src="assets/images/illustration-features-tab-1.svg"
                 alt="Bookmark in one click illustration"
               />
             </div>
-            <div class="grid gap-3 px-5 py-8 text-center">
+            <div
+              class="grid sm:content-center gap-3 px-5 py-8 text-center sm:text-left w-full sm:w-1/2"
+            >
               <h3 class="text-2xl">Bookmark in one click</h3>
               <p>
                 Organize your bookmarks however you like. Our simple
@@ -153,15 +155,17 @@
               <div><a class="btn-primary" href="">More Info</a></div>
             </div>
           </div>
-          <div class="hidden sm:flex">
-            <div class="img-left-after">
+          <div class="hidden">
+            <div class="img-left-after w-full sm:w-1/2">
               <img
                 class="px-5"
                 src="assets/images/illustration-features-tab-2.svg"
                 alt="Intelligent search illustration"
               />
             </div>
-            <div class="grid gap-3 px-5 py-8 text-center">
+            <div
+              class="grid gap-3 sm:content-center px-5 py-8 text-center sm:text-left w-full sm:w-1/2"
+            >
               <h3 class="text-2xl">Intelligent search</h3>
               <p>
                 Our powerful search feature will help you find saved sites in no
@@ -170,15 +174,17 @@
               <div><a class="btn-primary" href="">More Info</a></div>
             </div>
           </div>
-          <div class="hidden sm:flex">
-            <div class="img-left-after">
+          <div class="hidden">
+            <div class="img-left-after w-full sm:w-1/2">
               <img
                 class="px-5"
                 src="assets/images/illustration-features-tab-3.svg"
                 alt="Share your bookmarks illustration"
               />
             </div>
-            <div class="grid gap-3 px-5 py-8 text-center">
+            <div
+              class="grid gap-3 sm:content-center px-5 py-8 text-center sm:text-left w-full sm:w-1/2"
+            >
               <h3 class="text-2xl">Share your bookmarks</h3>
               <p>
                 Easily share your bookmarks and collections with others. Create
@@ -190,14 +196,16 @@
         </div>
       </div>
       <div class="py-8">
-        <div class="grid gap-2 px-5 text-center">
+        <div class="grid gap-2 px-5 text-center sm:max-w-sm sm:mx-auto sm:mt-7">
           <h2 class="text-2xl">Download the extension</h2>
           <p>
             We’ve got more browsers in the pipeline. Please do let us know if
             you’ve got a favourite you’d like us to prioritize.
           </p>
         </div>
-        <div class="flex flex-col sm:flex-row gap-2 px-5 py-8 text-center">
+        <div
+          class="flex flex-col md:flex-row md:max-w-5xl md:mx-auto gap-2 px-5 py-8 text-center"
+        >
           <div id="#chrome" class="grid gap-5 shadow rounded py-5">
             <div class="grid gap-4 justify-self-center">
               <div class="justify-self-center">
@@ -213,7 +221,7 @@
               <a class="btn-primary" href="">Add & Install Extension</a>
             </div>
           </div>
-          <div id="#firefox" class="grid gap-5 shadow rounded py-5">
+          <div id="#firefox" class="grid gap-5 shadow rounded py-5 md:mt-25">
             <div class="grid gap-2 justify-self-center">
               <div class="justify-self-center">
                 <img src="assets/images/logo-firefox.svg" alt="Firefox logo" />
@@ -228,7 +236,7 @@
               <a class="btn-primary" href="">Add & Install Extension</a>
             </div>
           </div>
-          <div id="#opera" class="grid gap-5 shadow rounded py-5">
+          <div id="#opera" class="grid gap-5 shadow rounded py-5 md:mt-50">
             <div class="grid gap-2 justify-self-center">
               <div class="justify-self-center">
                 <img src="assets/images/logo-opera.svg" alt="Opera logo" />
@@ -245,7 +253,7 @@
           </div>
         </div>
       </div>
-      <div class="grid gap-5 px-5 py-8">
+      <div class="grid gap-5 md:max-w-xs md:mx-auto px-5 py-8">
         <div class="grid gap-4 text-center">
           <h2 class="text-2xl">Frequently Asked Questions</h2>
           <p>
@@ -363,7 +371,7 @@
         <a class="btn-primary justify-self-center" href="">More Info</a>
       </div>
       <div class="bg-primary-600 text-neutral-50 text-center py-8">
-        <div class="px-5">
+        <div class="px-5 md:max-w-xs md:mx-auto">
           <p class="uppercase text-sm">35,000+ already joined</p>
           <h3 class="text-xl">Stay up-to-date with what we’re doing</h3>
           <form class="flex flex-col sm:flex-row gap-2 py-3" action="">

@@ -5,8 +5,10 @@ tabBtns.forEach((tabBtn, index) => {
   tabBtn.addEventListener("click", () => {
     // showing the tabs
     tabs.forEach((tab) => {
+      tab.classList.remove("active-tab");
       tab.classList.add("hidden");
     });
+    tabs[index].classList.add("active-tab");
     tabs[index].classList.remove("hidden");
 
     // to control the red underline
