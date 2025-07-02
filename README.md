@@ -38,12 +38,12 @@ For this challenge you'll need to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](assets/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/bookmark-landing-page-Iej7bd1vJ-)
+- Live Site URL: [Github Pages](https://temesgen-982.github.io/bookmark-landing-page/)
 
 ## My process
 
@@ -58,35 +58,15 @@ For this challenge you'll need to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+I learned what tailwind is about.
 
 ### Continued development
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Tailwind](https://tailwindcss.com/docs/styling-with-utility-classes) - The official website.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@temesgen-982](https://www.frontendmentor.io/profile/temesgen-982)
+- Twitter - [@BeshowOnCode](https://x.com/BeshowOnCode)
